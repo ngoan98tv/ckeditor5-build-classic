@@ -38,7 +38,8 @@ ClassicEditor.builtinPlugins = [
 ClassicEditor.defaultConfig = {
 	toolbar: {
 		items: [
-			'heading',
+			'MathType',
+			'ChemType',
 			'|',
 			'bold',
 			'italic',
@@ -47,10 +48,7 @@ ClassicEditor.defaultConfig = {
 			'insertTable',
 			'|',
 			'undo',
-			'redo',
-			'|',
-			'MathType',
-			'ChemType'
+			'redo'
 		]
 	},
 	table: {
